@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design a card</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .card {
+      margin: 4px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: stretch;
+      justify-content: center;
+      flex-direction: row;
+      /* padding: 2px;
+      background-color: rgb(193, 168, 245);
+      border: 2px solid rgb(157, 8, 8);
+      border-radius: 7px;
+      margin:4px; */
+    }
+    .body {
+      background-color: rgb(237, 209, 209);
+      padding: 3px;
+      border: 2px solid rgb(237, 209, 209);
+      width: 256px;
+      border-radius: 7px;
+    }
+
+    .content {
+      padding: 10px 34px;
+      color: gray;
+    }
+    .content span {
+      border: 2px solid rgb(175, 107, 107);
+      border-radius: 7px;
+      padding: 2px 4px;
+    }
+    .matter p {
+      font-size: 15px;
+    }
+    .matter {
+      color: rgb(144, 26, 26);
+      padding: 0 13px;
+      font-size: 20px;
+    }
+
+    .image {
+      padding: 0 13px;
+    }
+    .button {
+      text-align: center;
+    }
+    .button button {
+      padding: 0px 13px;
+      border: none;
+      border-radius: 7px;
+      font-size: 12px;
+      background-color: rgb(116, 116, 168);
+    }
+    .button button:hover {
+      background-color: rgb(147, 16, 16);
+    }
+  </style>
+  <body>
+    <div class="card">
+      <div class="body">
+        <div class="image">
+          <img height="133px" src="Screenshot 2025-12-18 125104.png" alt="" />
+        </div>
+        <div class="content">
+          <span>Festival</span>
+          <span>Racing</span>
+        </div>
+        <div class="matter">
+          <h1>Onam</h1>
+          <p>
+            Onam is Kerala's vibrant 10-day harvest festival, celebrating the mythical homecoming of the benevolent King Mahabali, marked by colorful floral carpets (Pookalam), grand feasts (Onasadya), traditional dances like Pulikali, and thrilling snake boat races (Vallamkali) to foster unity and cultural pride. 
+          </p>
+        </div>
+        <div class="button">
+          <button>Read more</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
